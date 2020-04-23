@@ -10,7 +10,7 @@ public:
 		int len = strlen(str); // Get our original string length
 		char* ret = new char[len]; // Initialize new string with correct length, assuming we don't add characters
 		strcpy(ret, str); // copy original string into new
-		for (int i = 0; i < len; ++i) // run the crypto on it
+		for (int i = 0; i < len; ++i) // run the cipher on it
 		{
 			char ch = ret[i];
 			if (ch >= 'A' && ch <= 'Z') /* The test cases are always capitalized */
