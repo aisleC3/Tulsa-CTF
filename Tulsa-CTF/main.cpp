@@ -1,4 +1,4 @@
-#define _CRT_NONSTDC_NO_DEPRECATE
+﻿#define _CRT_NONSTDC_NO_DEPRECATE
 
 #include <windows.h>
 #include <stdio.h>
@@ -12,11 +12,15 @@
 #include "object.h"
 #include "core.h"
 #include "xorient.h"
+#include "yeahright.h"
+#include "rengeesus.h"
+#include "shoop.h"
 
 int main()
 {
-	const char* flag = "UTBUGzb1s2^etlq>^O2w2s^i25se^1g^x1t|";
-	
-	printf("\nTest: %s\n", Core::Xor(flag, strlen(flag)));
+	printf("%i\n", 'j');
+	while(true)
+		Shoop::Execute();
+	//printf("Total: %i\n", num);
 }
 

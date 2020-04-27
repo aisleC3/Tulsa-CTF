@@ -35,5 +35,14 @@
     <ClInclude Include="xorient.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="yeahright.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rengeesus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
