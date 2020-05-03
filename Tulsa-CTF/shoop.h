@@ -20,17 +20,20 @@ public:
 		signed int j; // [rsp+28h] [rbp-8h]
 		signed int i; 
 
-		printf("Input: ");
-		for (i = 0; i < strlen(goal_plus_five); i++)
-			printf("%c", goal_plus_five[(i + 10) % 0x15]);
+		src = (char*)malloc(0x15uLL);
 
+		printf("Input: ");
+		for (k = 0; k < 21; ++k)
+			src[k] = *((BYTE*)goal + (k - 10) % 21);
+
+		printf("%s\n", src);
 		s = (char*)malloc(0x16uLL); // allocate memory
 		memset(s, 0, 0x16uLL); // zero it
 
 		printf("\nGimme that good stuff: ");
 		read(0, s, 0x15uLL);
 
-		src = (char*)malloc(0x15uLL);
+		
 
 		for (i = 0x14; i >= 0; --i)
 			src[0x15 - i - 1] = s[i]; // Reverse the string

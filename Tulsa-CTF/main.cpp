@@ -18,9 +18,10 @@
 
 int main()
 {
-	printf("%i\n", 'j');
-	while(true)
-		Shoop::Execute();
+	
+	//while (1)
+	//	Shoop::Execute();
+	system("PAUSE");
 	//printf("Total: %i\n", num);
 }
 
